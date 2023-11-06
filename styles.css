@@ -1,3 +1,9 @@
+body{
+    background: linear-gradient(0deg, #C0FFFF -13.1%, rgba(87, 201, 201, 0.00) 109.44%)
+}
+
+
+
 .button-container {
     border: 1px solid #ccc; /* Add a border to create a box-like appearance */
     padding: 20px;
