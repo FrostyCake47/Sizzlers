@@ -1,26 +1,44 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container" id="c">
+            <h1>QUIZ GAME</h1>
+            <div class="question-container" id="question">
 
-<html>
-  <head>
-    <title>Quizz</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <div class="title">
-      <h1>This is a centered heading</h1>
-      <h2 id="quest">Question: omae wa mou shinde iru</h2>
-    </div>
-    <div class="button-container">
-      <div class="button-group">
-        <button id="button1">Button 1</button>
-        <button id="button2">Button 2</button>
-      </div>
-      <div class="button-group">
-        <button id="button3">Button 3</button>
-        <button id="button4">Button 4</button>
-      </div>
-    </div>
-    <p id="output">nothing selected</p>
-    <script src="script.js"></script>
-  </body>
+            </div>
+            <div class="answer-container" id="answer">
+                <div class="firstcolumn">
+                    <button class="btn" id="b1">Answer1</button>&emsp;&emsp;
+                    <button class="btn" id="b2">Answer2</button>
+
+                </div>
+                <br>
+                <br>
+                <div class="secondcolumn">
+                    <button class="btn" id="b3">Answer3</button>&emsp;&emsp;
+                    <button class="btn" id="b3">Answer4</button>
+                </div>
+                
+                
+            </div>
+            <br>
+            <br>
+            <div class="controls">
+                <button class="quit-btn" id="quit">Quit</button>
+                <button class="next-btn" id="next">NEXT</button>
+            </div>
+            <h2>Result</h2>
+            <div class="result" id="r">
+                <div class="correct" id="corr">Correct!!</div>
+                <div class="wrong" id="wro">Wrong answer</div>
+            </div>
+
+
+
+        </div>
+        
+    </body>
 </html>

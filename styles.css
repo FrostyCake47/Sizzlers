@@ -1,37 +1,72 @@
-body{
-    background: linear-gradient(0deg, #C0FFFF -13.1%, rgba(87, 201, 201, 0.00) 109.44%)
-}
-
-
-
-.button-container {
-    border: 1px solid #ccc; /* Add a border to create a box-like appearance */
-    padding: 20px;
-    flex-direction: column; /* Add padding for spacing inside the container */
-    display: flex; /* Use a flex container to arrange the buttons horizontally */
-    justify-content: space-around; /* Center the buttons and create equal spacing */
-    background-color: #f0f0f0; /* Set a background color for the container */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #b9b3a9;
+    display: flex;
+    justify-content: center;
   }
-
-.button-group {
-    display: flex; /* Use a flex container to arrange buttons horizontally */
-    justify-content:space-evenly; /* Center-align the buttons and create equal spacing */
-    margin: 10px /* Add margin for spacing between button groups */
-}
-
-button {
-    margin: 10px;
-    padding: 10px 100px; /* Add padding to the buttons for spacing and style */
-    background-color: #007BFF; /* Set a background color for the buttons */
-    color: #fff; /* Set the text color to white */
-    border: none; /* Remove button borders */
-    cursor: pointer; /* Change the cursor to a pointer on hover */
-}
-
-.title {
-    text-align: center; /* Center aligns the content within the container */
-}
-
-h1 {
-    color: red;
-}   
+  
+  .container {
+    width: 450px;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .question {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2f6fa;
+    color: #0b0a0a;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10%;
+    transition: background-color 0.3s;
+    /*margin-left: 25px;
+    margin-right: 25px;*/
+    
+  }
+  
+  .answer-container{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .btn:hover{
+    background-color: #3071a9;
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .controls{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .hide{
+    display: none;
+  }
